@@ -12,6 +12,13 @@
     width: 25px;
     height: 25px;
 }
+/* .wrapper{
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+} */
+
 
 .container {
     width: 100%;
@@ -53,6 +60,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid; */
 }
 
 .container .nav .left li button {
@@ -74,7 +82,7 @@
 }
 
 .container .nav .center a {
-    color: blue;
+    color: #337ab7;
 }
 
 .container .nav .center ul {
@@ -92,6 +100,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border-right: 1px solid; */
+    padding: 5px;
+    position: relative;
+}
+.container .nav .center li::before{
+    content: "|";
+    /* display: block; */
+    position: absolute;
+    top: 1;
+    right: 0;
+    color: #bbbbbb;
+    /* border-right:1px solid; */
+    
 }
 
 .container .nav .center li button {
@@ -99,6 +120,7 @@
     height: 100%;
     background-color: transparent;
     border: transparent;
+    padding: 5px;
 }
 
 .container .nav .center li button:hover {
@@ -134,10 +156,20 @@
 .container .nav .right li {
     width: auto;
     height: 100%;
+    position: relative;
+    padding: 5px;
+
+}
+.container .nav .right li::before{
+    content: "|";
+    position: absolute;
+    bottom: 1;
+    right: 0;
+    color: #687074;
 }
 
 .container .nav .right a {
-    color: blue;
+    color: #687074;
 }
 
 .container .nav .right li button {
@@ -162,6 +194,7 @@
     top: 0px;
     z-index: 5;
     background-color: #fff;
+    
 }
 
 .container .navbar::before {
@@ -180,6 +213,11 @@
     display: flex;
     align-items: center;
     /* background-color: aqua; */
+    /* padding: 22px; */
+    /* display: inline-block; */
+    /* justify-content: center; */
+    /* position: relative; */
+
 }
 
 .container .navbar .left a {
@@ -218,7 +256,7 @@
 
 .container .navbar .center .dropbtn {
     background-color: white;
-    color: black;
+    color: #687074 !important;
     padding: 22px;
     font-size: 16px;
     border: none;
@@ -228,7 +266,7 @@
     position: relative;
     display: inline-block;
     /* display: flex; */
-
+    /* position: absolute; */
 }
 
 .container .navbar .center .dropdown-content {
@@ -249,7 +287,7 @@
 }
 
 .dropbtn a {
-    color: #000;
+    color: #687074;
 }
 
 .container .navbar .center .dropdown-content a:hover {
@@ -272,14 +310,14 @@
 
 .btn {
     background-color: white;
-    color: black;
+    color: #687074;
     padding: 22px;
     font-size: 16px;
     border: none;
 }
 
 .btn a {
-    color: #000;
+    color: #687074;
 }
 
 .btn:hover {
@@ -427,6 +465,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.news_text h1{
+    font-family: 'Open Sans', sans-serif, Arial;
+    font-size: 23px;
+    color:#5d5d5d ;
 }
 
 .ikki {

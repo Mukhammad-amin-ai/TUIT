@@ -14,6 +14,7 @@
 </head>
 
 <body>
+  <!-- <div class="wrapper"> -->
   <div class="container">
     <div class="nav">
       <div class="left">
@@ -30,10 +31,10 @@
       <div class="center">
         <ul>
           <li><button><a href="">Pochta</a></button> </li>
-          <li><button><a href="">Ishonch telefoni:71-233-44-44</a></button> </li>
-          <li><button><a href="">Qabul 2022</a></button> </li>
-          <li><button><a href="">TUIT 360'</a></button> </li>
-          <li><button><a href="">ICISCT 2022</a></button> </li>
+          <li><button><a href="">Ishonch telefoni: <b>71-233-44-44</b> </a></button> </li>
+          <li><button><a href=""> <b>Qabul 2022</b> </a></button> </li>
+          <li><button><a href=""> <b> TUIT 360'</b></a></button> </li>
+          <li><button><a href=""> <b>ICISCT 2022</b> </a></button> </li>
         </ul>
       </div>
       <div class="right">
@@ -292,7 +293,7 @@
             <h4>BO‘SH ISH O‘RINLARI</h4>
           </div>
         </div>
-       
+
         <div class="con">
           <div class="iicon">
             <i class='bx bxs-graduation'></i>
@@ -326,7 +327,7 @@
             <h4>ABITURIENT 2022</h4>
           </div>
         </div>
-        
+
       </div>
       <div class="bot">
         <div class="con">
@@ -369,42 +370,43 @@
             <h4>ACM</h4>
           </div>
         </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
+    <!-- </div> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      loop: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-
-  </script>
+    </script>
 </body>
 
 </html>
