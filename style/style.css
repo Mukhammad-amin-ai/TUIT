@@ -12,6 +12,7 @@
     width: 25px;
     height: 25px;
 }
+
 /* body{
     position: relative;
 } */
@@ -333,8 +334,9 @@
 
 .container .albom {
     position: relative;
-    height: 85%;
     width: 100%;
+    height: 85%;
+
     background: #eee;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -641,7 +643,7 @@
     /* gap: 20px; */
     padding-bottom: 80px;
     color: #aeaeae;
-    
+
 }
 
 .hoover .hiver {
@@ -716,28 +718,37 @@
     height: 100%;
 }
 
+.yopmoq {
+    width: 70%;
+    height: 60%;
+    margin-left: 15%;
+    /* background-color: #2c93d6; */
+    position: relative;
+}
+
 .xizmat {
     width: 70%;
     height: 50%;
     margin-left: 15%;
-    /* background-color: #2c93d6; */
     display: flex;
     justify-content: center;
     /* align-items: center; */
 }
-.ust{
+
+.ust {
     width: 200px;
     height: 200px;
     /* border: 1px solid; */
     position: relative;
     transform: rotate(230deg);
 }
-.birinchi{
+
+.birinchi {
     width: 100px;
     height: 100px;
     border: 1px solid transparent;
     /* transform: rotate(220deg); */
-    box-shadow: 0px 0px  5px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -747,30 +758,33 @@
     transition: all .3s linear;
 }
 
-.birinchi:hover{
-    box-shadow: 5px 5px  2px 1px #2c93d6;
+.birinchi:hover {
+    box-shadow: 5px 5px 2px 1px #2c93d6;
     transform: scale(1.1);
 }
 
-.birinchi:hover i{
+.birinchi:hover i {
     color: #2c93d6;
 }
-.birinchi:hover::after{
+
+.birinchi:hover::after {
     color: #2c93d6;
 
 }
-.birinchi:hover::before{
+
+.birinchi:hover::before {
     border-color: #2c93d6;
 
 }
 
 
-.birinchi i{
+.birinchi i {
     font-size: 50px;
-    color:#687074;
+    color: #687074;
     transform: rotate(130deg);
 }
-.birinchi::after{
+
+.birinchi::after {
     content: "ELEKTRON KUTUBXONA";
     display: block;
     /* border: 1px solid; */
@@ -781,9 +795,217 @@
     width: 50px;
     height: 50px;
     transform: rotate(130deg);
-    color:#687074;
+    color: #687074;
 }
-.birinchi::before{
+
+.birinchi::before {
+    content: " ";
+    display: block;
+    /* border: 1px solid; */
+    border-bottom: 2px solid #687074;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    width: 35px;
+    height: 35px;
+    transform: rotate(40deg);
+    /* z-index: 1; */
+}
+
+.ikkinchi {
+    width: 100px;
+    height: 100px;
+    border: 1px solid transparent;
+    /* transform: rotate(220deg); */
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    /* z-index: 2;
+    position: relative; */
+    transition: all .3s linear;
+}
+
+.ikkinchi:hover {
+    box-shadow: 5px 5px 2px 1px #2c93d6;
+    transform: scale(1.1);
+}
+
+.ikkinchi:hover i {
+    color: #2c93d6;
+}
+
+.ikkinchi:hover::after {
+    color: #2c93d6;
+
+}
+
+.ikkinchi:hover::before {
+    border-color: #2c93d6;
+
+}
+
+
+.ikkinchi i {
+    font-size: 50px;
+    color: #687074;
+    transform: rotate(130deg);
+}
+
+.ikkinchi::after {
+    content: "  ACM";
+    display: block;
+    /* border: 1px solid; */
+    /* border-bottom: 1px solid; */
+    position: absolute;
+    top: 100px;
+    left: 90px;
+    width: 50px;
+    height: 50px;
+    transform: rotate(130deg);
+    color: #687074;
+}
+
+.ikkinchi::before {
+    content: " ";
+    display: block;
+    /* border: 1px solid; */
+    border-bottom: 2px solid #687074;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    width: 35px;
+    height: 35px;
+    transform: rotate(40deg);
+    /* z-index: 1; */
+}
+
+.uchinchi {
+    width: 100px;
+    height: 100px;
+    border: 1px solid transparent;
+    /* transform: rotate(220deg); */
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    /* z-index: 2;
+    position: relative; */
+    transition: all .3s linear;
+}
+
+.uchinchi:hover {
+    box-shadow: 5px 5px 2px 1px #2c93d6;
+    transform: scale(1.1);
+}
+
+.uchinchi:hover i {
+    color: #2c93d6;
+}
+
+.uchinchi:hover::after {
+    color: #2c93d6;
+
+}
+
+.uchinchi:hover::before {
+    border-color: #2c93d6;
+
+}
+
+
+.uchinchi i {
+    font-size: 50px;
+    color: #687074;
+    transform: rotate(130deg);
+}
+
+.uchinchi::after {
+    content: "  UNISYS";
+    display: block;
+    /* border: 1px solid; */
+    /* border-bottom: 1px solid; */
+    position: absolute;
+    top: 100px;
+    left: 90px;
+    width: 50px;
+    height: 50px;
+    transform: rotate(130deg);
+    color: #687074;
+}
+
+.uchinchi::before {
+    content: " ";
+    display: block;
+    /* border: 1px solid; */
+    border-bottom: 2px solid #687074;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    width: 35px;
+    height: 35px;
+    transform: rotate(40deg);
+    /* z-index: 1; */
+}
+
+.tortinchi {
+    width: 100px;
+    height: 100px;
+    border: 1px solid transparent;
+    /* transform: rotate(220deg); */
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    /* z-index: 2;
+    position: relative; */
+    transition: all .3s linear;
+}
+
+.tortinchi:hover {
+    box-shadow: 5px 5px 2px 1px #2c93d6;
+    transform: scale(1.1);
+}
+
+.tortinchi:hover i {
+    color: #2c93d6;
+}
+
+.tortinchi:hover::after {
+    color: #2c93d6;
+
+}
+
+.tortinchi:hover::before {
+    border-color: #2c93d6;
+
+}
+
+
+.tortinchi i {
+    font-size: 50px;
+    color: #687074;
+    transform: rotate(130deg);
+}
+
+.tortinchi::after {
+    content: "  VIRTUAL QABULXONA";
+    display: block;
+    /* border: 1px solid; */
+    /* border-bottom: 1px solid; */
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    width: 50px;
+    height: 50px;
+    transform: rotate(130deg);
+    color: #687074;
+}
+
+.tortinchi::before {
     content: " ";
     display: block;
     /* border: 1px solid; */
@@ -799,6 +1021,339 @@
 
 
 
+.xiznatpast{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+}
+.yop{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid; */
+    position: absolute;
+    top: 220px;
+    left: 230px;
+    transform: rotate(50deg);
+
+}
+.alaval{
+    width: 100px;
+    height: 100px;
+    border: 1px solid transparent;
+    /* transform: rotate(220deg); */
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    /* z-index: 2;
+    position: relative; */
+    transition: all .3s linear;
+}
+.alaval i{
+    font-size: 50px;
+    color: #687074;
+    transform: rotate(310deg);
+}
+.alaval::after{
+    content: " ONLAYN SHARTNOMA TO‘LOVI";
+    display: block;
+    /* border: 1px solid; */
+    /* border-bottom: 1px solid; */
+    position: absolute;
+    top: 110px;
+    left: 120px;
+    width: 50px;
+    height: 50px;
+    transform: rotate(310deg);
+    color: #687074;
+}
+.alaval::before{
+    content: " ";
+    display: block;
+    /* border: 1px solid; */
+    border-bottom: 2px solid #687074;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    width: 35px;
+    height: 35px;
+    transform: rotate(40deg);
+    /* z-index: 1; */
+}
+
+.alaval:hover {
+    box-shadow: 5px 5px 2px 1px #2c93d6;
+    transform: scale(1.1);
+}
+.alaval:hover i {
+    color: #2c93d6;
+}
+
+.alaval:hover::after {
+    color: #2c93d6;
+
+}
+
+.alaval:hover::before {
+    border-color: #2c93d6;
+
+}
+
+
+
+
+
+
+
+.yana{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid; */
+    position: absolute;
+    top: 220px;
+    left: 410px;
+    transform: rotate(50deg);
+}
+.soniy{
+    width: 100px;
+    height: 100px;
+    border: 1px solid transparent;
+    /* transform: rotate(220deg); */
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    /* z-index: 2;
+    position: relative; */
+    transition: all .3s linear;
+}
+.soniy i{
+    font-size: 50px;
+    color: #687074;
+    transform: rotate(310deg);
+}
+.soniy::after{
+    content: "UNITEST ";
+    display: block;
+    /* border: 1px solid; */
+    /* border-bottom: 1px solid; */
+    position: absolute;
+    top: 110px;
+    left: 120px;
+    width: 50px;
+    height: 50px;
+    transform: rotate(310deg);
+    color: #687074;
+}
+.soniy::before{
+    content: " ";
+    display: block;
+    /* border: 1px solid; */
+    border-bottom: 2px solid #687074;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    width: 35px;
+    height: 35px;
+    transform: rotate(40deg);
+    /* z-index: 1; */
+}
+.soniy:hover {
+    box-shadow: 5px 5px 2px 1px #2c93d6;
+    transform: scale(1.1);
+}
+.soniy:hover i {
+    color: #2c93d6;
+}
+
+.soniy:hover::after {
+    color: #2c93d6;
+
+}
+
+.soniy:hover::before {
+    border-color: #2c93d6;
+
+}
+
+
+.boyana {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid; */
+    position: absolute;
+    top: 220px;
+    left: 600px;
+    transform: rotate(50deg);
+}
+.salasa{
+    width: 100px;
+    height: 100px;
+    border: 1px solid transparent;
+    /* transform: rotate(220deg); */
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    /* z-index: 2;
+    position: relative; */
+    transition: all .3s linear;
+}
+.salasa i{
+    font-size: 50px;
+    color: #687074;
+    transform: rotate(310deg);
+}
+.salasa::after{
+    content: "MASOFAVIY TA’LIM ";
+    display: block;
+    /* border: 1px solid; */
+    /* border-bottom: 1px solid; */
+    position: absolute;
+    top: 110px;
+    left: 120px;
+    width: 50px;
+    height: 50px;
+    transform: rotate(310deg);
+    color: #687074;
+}
+.salasa::before{
+    content: " ";
+    display: block;
+    /* border: 1px solid; */
+    border-bottom: 2px solid #687074;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    width: 35px;
+    height: 35px;
+    transform: rotate(40deg);
+    /* z-index: 1; */
+}
+.salasa:hover {
+    box-shadow: 5px 5px 2px 1px #2c93d6;
+    transform: scale(1.1);
+}
+.salasa:hover i {
+    color: #2c93d6;
+}
+
+.salasa:hover::after {
+    color: #2c93d6;
+
+}
+
+.salasa:hover::before {
+    border-color: #2c93d6;
+
+}
+.oxiri{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid; */
+    position: absolute;
+    top: 220px;
+    left: 780px;
+    transform: rotate(50deg);
+}
+.sittun{
+    width: 100px;
+    height: 100px;
+    border: 1px solid transparent;
+    /* transform: rotate(220deg); */
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    /* z-index: 2;
+    position: relative; */
+    transition: all .3s linear;
+}
+.sittun i{
+    font-size: 50px;
+    color: #687074;
+    transform: rotate(310deg);
+}
+.sittun::after{
+    content: "ABITURIYENT-2022 ";
+    display: block;
+    /* border: 1px solid; */
+    /* border-bottom: 1px solid; */
+    position: absolute;
+    top: 110px;
+    left: 120px;
+    width: 50px;
+    height: 50px;
+    transform: rotate(310deg);
+    color: #687074;
+}
+.sittun::before{
+    content: " ";
+    display: block;
+    /* border: 1px solid; */
+    border-bottom: 2px solid #687074;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    width: 35px;
+    height: 35px;
+    transform: rotate(40deg);
+    /* z-index: 1; */
+}
+.sittun:hover {
+    box-shadow: 5px 5px 2px 1px #2c93d6;
+    transform: scale(1.1);
+}
+.sittun:hover i {
+    color: #2c93d6;
+}
+
+.sittun:hover::after {
+    color: #2c93d6;
+
+}
+
+.sittun:hover::before {
+    border-color: #2c93d6;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -806,34 +1361,27 @@
 
 .savol {
     width: 100%;
-    height: 100%;
-    padding-top: 50px;
+    height: 130%;
+    /* padding-top: 50px; */
     position: relative;
     /* background-attachment:scroll; */
-    background-size: cover;
-    background-attachment: fixed;
+
 }
 
 .savol .img {
     width: 100%;
     height: 100%;
+    /* background-size: cover;
+    background-attachment: fixed; */
+
 }
 
 .savol .img img {
     width: 100%;
-    height: 130%;
+    height: 100%;
     /* backdrop-filter: blur(20px); */
 }
 
-.line {
-    width: 100%;
-    height: 8%;
-    background-color: #fff;
-    position: absolute;
-    z-index: 6;
-    top: 90%;
-    left: 0;
-}
 
 .wrap {
     width: 100%;
@@ -865,7 +1413,8 @@
     align-items: center;
     gap: 30px;
 }
-.savol .cover .kopsavol{
+
+.savol .cover .kopsavol {
     width: 45%;
     height: 100%;
     /* background-color: blue; */
@@ -874,7 +1423,8 @@
     align-items: center;
     transition: all .3s linear;
 }
-.savol .cover .kopsavol .kleft{
+
+.savol .cover .kopsavol .kleft {
     width: 13%;
     height: 50%;
     /* background-color: green; */
@@ -886,31 +1436,36 @@
     color: #fff;
 
 }
-.savol .cover .kopsavol .kleft i{
+
+.savol .cover .kopsavol .kleft i {
     font-size: 50px;
     color: #fff;
 
 }
-.savol .cover .kopsavol .kright h3{
-    padding: 10px 15px ;
+
+.savol .cover .kopsavol .kright h3 {
+    padding: 10px 15px;
     font-size: 20px;
     color: #fff;
     transition: all .3s linear;
 
 }
 
-.savol .cover .kopsavol .kright h4{
-    padding: 10px 15px ;
+.savol .cover .kopsavol .kright h4 {
+    padding: 10px 15px;
     font-size: 15px;
     color: #687074;
 }
-.savol .cover .kopsavol:hover .kleft{
+
+.savol .cover .kopsavol:hover .kleft {
     background-color: #2c93d6;
 }
-.savol .cover .kopsavol:hover .kright h3{
+
+.savol .cover .kopsavol:hover .kright h3 {
     color: #2c93d6;
 }
-.another{
+
+.another {
     width: 100%;
     height: 20%;
     z-index: 7;
@@ -923,7 +1478,8 @@
     align-items: center;
     gap: 30px;
 }
-.second{
+
+.second {
     width: 45%;
     height: 100%;
     /* background-color: blue; */
@@ -932,7 +1488,8 @@
     align-items: center;
     transition: all .3s linear;
 }
-.sleft{
+
+.sleft {
     width: 13%;
     height: 50%;
     /* background-color: green; */
@@ -943,31 +1500,37 @@
     align-items: center;
     color: #fff;
 }
-.sleft i{
+
+.sleft i {
     font-size: 50px;
     color: #fff;
     padding: 10px;
 }
-.sright h3{
-    padding: 10px 15px ;
+
+.sright h3 {
+    padding: 10px 15px;
     font-size: 20px;
     color: #fff;
     transition: all .3s linear;
 }
-.sright h4{
-    padding: 10px 15px ;
+
+.sright h4 {
+    padding: 10px 15px;
     font-size: 15px;
     color: #687074;
 }
+
 .second:hover .sleft {
     background-color: #2c93d6;
 
 }
-.second:hover .sright h3{
+
+.second:hover .sright h3 {
     color: #2c93d6;
 
 }
-.onather{
+
+.onather {
     width: 100%;
     height: 20%;
     z-index: 7;
@@ -980,7 +1543,8 @@
     align-items: center;
     gap: 30px;
 }
-.third{
+
+.third {
     width: 45%;
     height: 100%;
     /* background-color: blue; */
@@ -989,7 +1553,8 @@
     align-items: center;
     transition: all .3s linear;
 }
-.tleft{
+
+.tleft {
     width: 13%;
     height: 50%;
     /* background-color: green; */
@@ -1000,31 +1565,37 @@
     align-items: center;
     color: #fff;
 }
-.tleft i{
+
+.tleft i {
     font-size: 50px;
     color: #fff;
     padding: 10px;
 }
-.tright h3{
-    padding: 10px 15px ;
+
+.tright h3 {
+    padding: 10px 15px;
     font-size: 20px;
     color: #fff;
     transition: all .3s linear;
 }
-.tright h4{
-    padding: 10px 15px ;
+
+.tright h4 {
+    padding: 10px 15px;
     font-size: 15px;
     color: #687074;
 }
-.third:hover .tleft{
+
+.third:hover .tleft {
     background-color: #2c93d6;
 
 }
-.third:hover .tright h3{
+
+.third:hover .tright h3 {
     color: #2c93d6;
 
 }
-.hamkor{
+
+.container .hamkor {
     width: 70%;
     height: 10%;
     /* background-color: aqua; */
@@ -1033,36 +1604,53 @@
     justify-content: center;
     align-items: center;
     /* padding-top: 300px; */
-    position: absolute;
-    top: 550vh;
+    /* position: absolute; */
+    /* top: 550vh; */
+    /* z-index: 1; */
 }
-.ham1{
+
+.container .ham1 {
     width: 35%;
     height: 1%;
     background-color: blue;
     border-bottom: 1px solid;
 }
-.hamkor_text{
+
+.container .hamkor_text {
     width: 30%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: #2c93d6; */
 }
-.hamkor_text h1{
+
+.container .hamkor_text h1 {
     font-family: 'Open Sans', sans-serif, Arial;
     font-size: 23px;
     color: #5d5d5d;
 }
-.ham2{
+
+.ham2 {
     width: 35%;
     height: 1%;
     background-color: blue;
     border-bottom: 1px solid;
 }
-.after{
+
+
+.linya {
     width: 100%;
-    height: 30%;
+    height: 10%;
+    background-color: #fff;
+    position: absolute;
+    z-index: 3;
+    top: 780px;
+}
+
+.after {
+    width: 100%;
+    height: 15%;
     /* background-color: aqua; */
     z-index: 7;
     position: absolute;
@@ -1070,90 +1658,100 @@
     justify-content: center;
     align-items: center;
     gap: 180px;
-    
+    top: 880px;
+
 }
-.box1{
+
+.box1 {
     width: 20%;
     height: 100%;
     /* background-color: blue; */
 
 }
-.btop{
+
+.btop {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.btop i{
+
+.btop i {
     font-size: 70px;
     color: #fff;
 
 }
-.bbot{
+
+.bbot {
     /* display: flex;
     justify-content: center;
     align-items: center; */
     text-align: center;
 }
-.bbot h3{
+
+.bbot h3 {
     font-size: 20px;
     color: #fff;
 }
-.bbot h4{
+
+.bbot h4 {
     font-size: 20px;
     color: #fff;
 
 }
-.logos{
+
+/* 
+.logos {
     width: 70%;
     height: 30%;
     margin-left: 15%;
     background-color: aqua;
     position: absolute;
     top: 570vh;
-}
+} */
+/* 
 html,
 body {
-  position: relative;
-  height: 100%;
+    position: relative;
+    height: 100%;
 }
 
 body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
 }
 
 .swiper {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
 
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-
+    /* Center slide text vertically */
+/* display: -webkit-box; */
+/* display: -ms-flexbox; */
+/* display: -webkit-flex; */
+/* display: flex; */
+/* -webkit-box-pack: center; */
+/* -ms-flex-pack: center; */
+/* -webkit-justify-content: center; */
+/* justify-content: center; */
+/* -webkit-box-align: center; */
+/* -ms-flex-align: center; */
+/* -webkit-align-items: center; */
+/* align-items: center; */
+/* } */
+/* 
 .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}  */
